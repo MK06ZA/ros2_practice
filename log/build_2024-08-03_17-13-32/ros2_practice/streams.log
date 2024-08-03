@@ -1,0 +1,67 @@
+[0.013s] Invoking command in '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble GIT_PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ NO_GIT_PS1=\u@\h:\w $ PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ /usr/bin/cmake /home/runner/trainee_ws/src/ros2_practice -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/runner/trainee_ws/src/ros2_practice/install/ros2_practice
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.217s] -- The CXX compiler identification is GNU 11.4.0
+[0.224s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.268s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.313s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.435s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.541s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.633s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.704s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.721s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.757s] -- Looking for pthread.h
+[0.797s] -- Looking for pthread.h - found
+[0.797s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.830s] -- Found Threads: TRUE  
+[0.970s] -- Configuring done
+[0.976s] -- Generating done
+[0.977s] -- Build files have been written to: /home/runner/trainee_ws/src/ros2_practice/build/ros2_practice
+[0.982s] Invoked command in '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble GIT_PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ NO_GIT_PS1=\u@\h:\w $ PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ /usr/bin/cmake /home/runner/trainee_ws/src/ros2_practice -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/runner/trainee_ws/src/ros2_practice/install/ros2_practice
+[0.983s] Invoking command in '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble GIT_PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ NO_GIT_PS1=\u@\h:\w $ PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ /usr/bin/cmake --build /home/runner/trainee_ws/src/ros2_practice/build/ros2_practice -- -j28 -l28
+[1.004s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[1.005s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[3.143s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.246s] [ 75%] Built target talker
+[4.939s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.110s] [100%] Built target listener
+[5.114s] Invoked command in '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble GIT_PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ NO_GIT_PS1=\u@\h:\w $ PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ /usr/bin/cmake --build /home/runner/trainee_ws/src/ros2_practice/build/ros2_practice -- -j28 -l28
+[5.130s] Invoking command in '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble GIT_PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ NO_GIT_PS1=\u@\h:\w $ PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ /usr/bin/cmake --install /home/runner/trainee_ws/src/ros2_practice/build/ros2_practice
+[5.133s] -- Install configuration: ""
+[5.133s] -- Execute custom install script
+[5.133s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/listener.py
+[5.137s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/talker.py
+[5.140s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/listener
+[5.143s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/talker
+[5.148s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ament_index/resource_index/package_run_dependencies/ros2_practice
+[5.151s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ament_index/resource_index/parent_prefix_path/ros2_practice
+[5.155s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/ament_prefix_path.sh
+[5.158s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/ament_prefix_path.dsv
+[5.161s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/path.sh
+[5.164s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/path.dsv
+[5.168s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.bash
+[5.171s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.sh
+[5.174s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.zsh
+[5.178s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.dsv
+[5.181s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/package.dsv
+[5.184s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ament_index/resource_index/packages/ros2_practice
+[5.188s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.191s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/cmake/ros2_practiceConfig.cmake
+[5.194s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/cmake/ros2_practiceConfig-version.cmake
+[5.197s] -- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/package.xml
+[5.201s] Invoked command in '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble GIT_PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ NO_GIT_PS1=\u@\h:\w $ PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w$(__git_ps1)\[\033[00m\](\t)$ /usr/bin/cmake --install /home/runner/trainee_ws/src/ros2_practice/build/ros2_practice
