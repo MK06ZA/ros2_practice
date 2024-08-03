@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000659] (ros2_practice) JobQueued: {'identifier': 'ros2_practice', 'dependencies': OrderedDict()}
+[0.000693] (ros2_practice) JobStarted: {'identifier': 'ros2_practice'}
+[0.012501] (ros2_practice) JobProgress: {'identifier': 'ros2_practice', 'progress': 'cmake'}
+[0.012758] (ros2_practice) Command: {'cmd': ['/usr/bin/cmake', '/home/runner/trainee_ws/src/ros2_practice', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/runner/trainee_ws/src/ros2_practice/install/ros2_practice'], 'cwd': '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice', 'env': OrderedDict([('USER', 'runner'), ('HOSTNAME', 'gustav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/runner'), ('OLDPWD', '/home/runner/trainee_ws/src/ros2_practice/src'), ('NO_GIT_PS1', '\\u@\\h:\\w $'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w$(__git_ps1)\\[\\033[00m\\](\\t)$'), ('_colcon_cd_root', '/home/runner'), ('COLCON_PREFIX_PATH', '/home/runner/trainee_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'runner'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/runner/trainee_ws/install/ros2_practice:/opt/ros/humble'), ('PWD', '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice'), ('GIT_PS1', '\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w$(__git_ps1)\\[\\033[00m\\](\\t)$'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/runner/trainee_ws/install/ros2_practice:/opt/ros/humble')]), 'shell': False}
+[0.099934] (-) TimerEvent: {}
+[0.148421] (ros2_practice) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200023] (-) TimerEvent: {}
+[0.217635] (ros2_practice) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.224859] (ros2_practice) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.264548] (ros2_practice) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.268026] (ros2_practice) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.268725] (ros2_practice) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.269188] (ros2_practice) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.271506] (ros2_practice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300126] (-) TimerEvent: {}
+[0.309217] (ros2_practice) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.312879] (ros2_practice) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.313036] (ros2_practice) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.313284] (ros2_practice) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.318523] (ros2_practice) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.400290] (ros2_practice) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400420] (-) TimerEvent: {}
+[0.436096] (ros2_practice) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500530] (-) TimerEvent: {}
+[0.541366] (ros2_practice) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.545247] (ros2_practice) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.552430] (ros2_practice) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.564742] (ros2_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.578657] (ros2_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600610] (-) TimerEvent: {}
+[0.631074] (ros2_practice) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.633764] (ros2_practice) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700719] (-) TimerEvent: {}
+[0.705071] (ros2_practice) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.721533] (ros2_practice) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.748106] (ros2_practice) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.757275] (ros2_practice) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.797342] (ros2_practice) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.797499] (ros2_practice) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800798] (-) TimerEvent: {}
+[0.830018] (ros2_practice) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.830573] (ros2_practice) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900915] (-) TimerEvent: {}
+[0.970286] (ros2_practice) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.977084] (ros2_practice) StdoutLine: {'line': b'-- Generating done\n'}
+[0.977947] (ros2_practice) StdoutLine: {'line': b'-- Build files have been written to: /home/runner/trainee_ws/src/ros2_practice/build/ros2_practice\n'}
+[0.982379] (ros2_practice) CommandEnded: {'returncode': 0}
+[0.982740] (ros2_practice) JobProgress: {'identifier': 'ros2_practice', 'progress': 'build'}
+[0.983481] (ros2_practice) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice', '--', '-j28', '-l28'], 'cwd': '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice', 'env': OrderedDict([('USER', 'runner'), ('HOSTNAME', 'gustav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/runner'), ('OLDPWD', '/home/runner/trainee_ws/src/ros2_practice/src'), ('NO_GIT_PS1', '\\u@\\h:\\w $'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w$(__git_ps1)\\[\\033[00m\\](\\t)$'), ('_colcon_cd_root', '/home/runner'), ('COLCON_PREFIX_PATH', '/home/runner/trainee_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'runner'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/runner/trainee_ws/install/ros2_practice:/opt/ros/humble'), ('PWD', '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice'), ('GIT_PS1', '\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w$(__git_ps1)\\[\\033[00m\\](\\t)$'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/runner/trainee_ws/install/ros2_practice:/opt/ros/humble')]), 'shell': False}
+[1.001013] (-) TimerEvent: {}
+[1.004725] (ros2_practice) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[1.005223] (ros2_practice) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[1.101123] (-) TimerEvent: {}
+[1.201438] (-) TimerEvent: {}
+[1.301704] (-) TimerEvent: {}
+[1.401976] (-) TimerEvent: {}
+[1.502249] (-) TimerEvent: {}
+[1.602514] (-) TimerEvent: {}
+[1.702789] (-) TimerEvent: {}
+[1.803065] (-) TimerEvent: {}
+[1.903333] (-) TimerEvent: {}
+[2.003658] (-) TimerEvent: {}
+[2.104021] (-) TimerEvent: {}
+[2.204314] (-) TimerEvent: {}
+[2.304599] (-) TimerEvent: {}
+[2.404926] (-) TimerEvent: {}
+[2.505216] (-) TimerEvent: {}
+[2.605502] (-) TimerEvent: {}
+[2.705788] (-) TimerEvent: {}
+[2.806051] (-) TimerEvent: {}
+[2.906370] (-) TimerEvent: {}
+[3.006733] (-) TimerEvent: {}
+[3.106997] (-) TimerEvent: {}
+[3.143200] (ros2_practice) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.207129] (-) TimerEvent: {}
+[3.246511] (ros2_practice) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[3.307278] (-) TimerEvent: {}
+[3.407608] (-) TimerEvent: {}
+[3.508038] (-) TimerEvent: {}
+[3.608394] (-) TimerEvent: {}
+[3.708720] (-) TimerEvent: {}
+[3.808983] (-) TimerEvent: {}
+[3.909251] (-) TimerEvent: {}
+[4.009536] (-) TimerEvent: {}
+[4.109815] (-) TimerEvent: {}
+[4.210082] (-) TimerEvent: {}
+[4.310339] (-) TimerEvent: {}
+[4.410592] (-) TimerEvent: {}
+[4.510856] (-) TimerEvent: {}
+[4.611119] (-) TimerEvent: {}
+[4.711386] (-) TimerEvent: {}
+[4.811659] (-) TimerEvent: {}
+[4.911929] (-) TimerEvent: {}
+[4.940025] (ros2_practice) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[5.012067] (-) TimerEvent: {}
+[5.110168] (ros2_practice) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.112133] (-) TimerEvent: {}
+[5.115039] (ros2_practice) CommandEnded: {'returncode': 0}
+[5.126637] (ros2_practice) JobProgress: {'identifier': 'ros2_practice', 'progress': 'install'}
+[5.130262] (ros2_practice) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice'], 'cwd': '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice', 'env': OrderedDict([('USER', 'runner'), ('HOSTNAME', 'gustav'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/runner'), ('OLDPWD', '/home/runner/trainee_ws/src/ros2_practice/src'), ('NO_GIT_PS1', '\\u@\\h:\\w $'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w$(__git_ps1)\\[\\033[00m\\](\\t)$'), ('_colcon_cd_root', '/home/runner'), ('COLCON_PREFIX_PATH', '/home/runner/trainee_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'runner'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/runner/trainee_ws/install/ros2_practice:/opt/ros/humble'), ('PWD', '/home/runner/trainee_ws/src/ros2_practice/build/ros2_practice'), ('GIT_PS1', '\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w$(__git_ps1)\\[\\033[00m\\](\\t)$'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/runner/trainee_ws/install/ros2_practice:/opt/ros/humble')]), 'shell': False}
+[5.133173] (ros2_practice) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.133426] (ros2_practice) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.133717] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/listener.py\n'}
+[5.137146] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/talker.py\n'}
+[5.140643] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/listener\n'}
+[5.144085] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/lib/ros2_practice/talker\n'}
+[5.148202] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ament_index/resource_index/package_run_dependencies/ros2_practice\n'}
+[5.152111] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ament_index/resource_index/parent_prefix_path/ros2_practice\n'}
+[5.155454] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/ament_prefix_path.sh\n'}
+[5.158796] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/ament_prefix_path.dsv\n'}
+[5.161989] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/path.sh\n'}
+[5.165152] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/environment/path.dsv\n'}
+[5.168537] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.bash\n'}
+[5.171786] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.sh\n'}
+[5.174972] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.zsh\n'}
+[5.178329] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/local_setup.dsv\n'}
+[5.181460] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/package.dsv\n'}
+[5.184730] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ament_index/resource_index/packages/ros2_practice\n'}
+[5.188200] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.191561] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/cmake/ros2_practiceConfig.cmake\n'}
+[5.194803] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/cmake/ros2_practiceConfig-version.cmake\n'}
+[5.198104] (ros2_practice) StdoutLine: {'line': b'-- Symlinking: /home/runner/trainee_ws/src/ros2_practice/install/ros2_practice/share/ros2_practice/package.xml\n'}
+[5.202077] (ros2_practice) CommandEnded: {'returncode': 0}
+[5.212275] (-) TimerEvent: {}
+[5.227505] (ros2_practice) JobEnded: {'identifier': 'ros2_practice', 'rc': 0}
+[5.227711] (-) EventReactorShutdown: {}
